@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10130e">
+  <meta name="description" content="Discover AFRIVINO — a celebration of wine, good company and memorable moments.">
+  <title>AFRIVINO | Pour Something Memorable</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="age-screen" id="ageScreen" role="dialog" aria-modal="true" aria-labelledby="ageTitle">
+    <div class="age-card">
+      <div class="brand brand-large"><span class="brand-mark">A</span> AFRIVINO<span class="brand-dot">.</span></div>
+      <p class="eyebrow">A moment worth savouring</p>
+      <h1 id="ageTitle">Are you of legal drinking age?</h1>
+      <p class="muted">Please confirm that you are of legal drinking age in your country to enter this website.</p>
+      <div class="age-actions">
+        <button class="btn btn-gold" id="ageYes">Yes, I am of legal age</button>
+        <button class="btn btn-outline" id="ageNo">No, take me back</button>
+      </div>
+      <small>Please enjoy responsibly. Never drink and drive.</small>
+    </div>
+  </div>
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#top"><span class="brand-mark">A</span> AFRIVINO<span class="brand-dot">.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+      <div class="nav-links" id="navLinks">
+        <a class="active" href="#top">Home</a><a href="#story">Our story</a><a href="#collection">The collection</a><a href="#moments">Wine moments</a><a href="#contact" class="nav-cta">Get in touch <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-image"></div><div class="hero-shade"></div>
+      <div class="container hero-content">
+        <p class="eyebrow reveal">GOOD WINE. GREAT COMPANY.</p>
+        <h1 class="reveal">Pour something<br><em>memorable.</em></h1>
+        <p class="hero-copy reveal">Discover the pleasure of slowing down, sharing stories and making every gathering a little more special.</p>
+        <div class="hero-actions reveal"><a class="btn btn-gold" href="#collection">Explore our wines <span>↗</span></a><a class="text-link" href="#story">Discover AFRIVINO <span>↓</span></a></div>
+      </div>
+      <div class="hero-note"><span class="note-line"></span><span>MAKE THE MOMENT YOURS</span></div><div class="hero-index">01 <span>/</span> 04</div>
+    </section>
+    <section class="intro section-pad" id="story">
+      <div class="container intro-grid">
+        <div class="section-kicker reveal"><span>01</span><span class="kicker-line"></span><span>THE AFRIVINO STORY</span></div>
+        <div class="intro-copy reveal"><p class="eyebrow">MORE THAN WHAT'S IN THE GLASS</p><h2>Every bottle has a place<br>in a <em>beautiful story.</em></h2><p class="body-copy">AFRIVINO is about bringing people together through the simple pleasure of wine. From quiet evenings to joyful celebrations, we believe the best moments are the ones shared.</p><a class="under-link" href="#contact">Get to know us <span>↗</span></a></div>
+        <div class="intro-photo reveal"><img src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1000&q=85" alt="Wine glasses set for a shared evening"><span class="photo-caption">SAVOUR THE MOMENT · AFRIVINO</span></div>
+      </div>
+    </section>
+    <section class="collection section-pad" id="collection">
+      <div class="container">
+        <div class="section-heading reveal"><div><div class="section-kicker"><span>02</span><span class="kicker-line"></span><span>THE COLLECTION</span></div><h2>A pour for<br><em>every occasion.</em></h2></div><p class="body-copy">Explore a selection made for relaxed evenings, thoughtful gifts and celebrations worth remembering.</p></div>
+        <div class="wine-grid">
+          <article class="wine-card reveal"><div class="wine-image"><img src="https://images.unsplash.com/photo-1516594798947-e65505dbb29d?auto=format&fit=crop&w=800&q=85" alt="Red wine served in a glass"><span class="wine-number">01</span></div><div class="wine-info"><div><p class="eyebrow">RICH · EXPRESSIVE</p><h3>Red Selection</h3></div><span class="wine-arrow">↗</span></div><p class="wine-desc">A bold companion for slow dinners and good conversation.</p></article>
+          <article class="wine-card reveal"><div class="wine-image"><img src="https://images.unsplash.com/photo-1474722883778-792e7990302f?auto=format&fit=crop&w=800&q=85" alt="White wine poured into a glass"><span class="wine-number">02</span></div><div class="wine-info"><div><p class="eyebrow">FRESH · ELEGANT</p><h3>White Selection</h3></div><span class="wine-arrow">↗</span></div><p class="wine-desc">A refreshing choice for bright afternoons and light meals.</p></article>
+          <article class="wine-card reveal"><div class="wine-image"><img src="https://images.unsplash.com/photo-1558001373-7b93ee48ffa0?auto=format&fit=crop&w=800&q=85" alt="Wine served for an occasion"><span class="wine-number">03</span></div><div class="wine-info"><div><p class="eyebrow">BRIGHT · PLAYFUL</p><h3>Rosé Selection</h3></div><span class="wine-arrow">↗</span></div><p class="wine-desc">A lovely touch for brunches, picnics and sunny moments.</p></article>
+        </div>
+        <p class="collection-note">Selections shown are illustrative. Product availability and details may vary.</p>
+      </div>
+    </section>
+    <section class="statement" id="moments"><div class="statement-bg"></div><div class="statement-overlay"></div><div class="container statement-content reveal"><p class="eyebrow">03 / THE ART OF GATHERING</p><h2>Good wine is best<br>shared with <em>good people.</em></h2><p>For the milestones, the reunions and the ordinary days that become extraordinary.</p><a class="btn btn-gold" href="#contact">Make a moment <span>↗</span></a></div></section>
+    <section class="values section-pad"><div class="container values-grid"><div class="section-kicker reveal"><span>04</span><span class="kicker-line"></span><span>THE AFRIVINO FEELING</span></div><div class="values-content"><h2 class="reveal">A little intention.<br><em>A lot of togetherness.</em></h2><div class="value-list"><div class="value-item reveal"><span>01</span><div><h3>Gather beautifully</h3><p>Create space for meaningful conversations and shared experiences.</p></div></div><div class="value-item reveal"><span>02</span><div><h3>Choose thoughtfully</h3><p>Find a bottle that suits the occasion, the meal and the people around you.</p></div></div><div class="value-item reveal"><span>03</span><div><h3>Savour responsibly</h3><p>Enjoy in moderation, and make sure everyone gets home safely.</p></div></div></div></div></div></section>
+    <section class="contact section-pad" id="contact"><div class="container contact-grid"><div class="contact-copy reveal"><p class="eyebrow">LET'S CONNECT</p><h2>Something good<br>starts with <em>hello.</em></h2><p class="body-copy">Have a question, planning an event or interested in AFRIVINO? Send us a message and let's start a conversation.</p><a class="contact-email" href="mailto:hello@afrivino.com">hello@afrivino.com <span>↗</span></a><small class="muted">Replace this sample email with your official business contact before launch.</small></div><form class="contact-form reveal" id="contactForm"><label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Enter your name" required><label for="email">Email address</label><input id="email" name="email" type="email" placeholder="you@example.com" required><label for="message">Your message</label><textarea id="message" name="message" rows="4" placeholder="Tell us how we can help..." required></textarea><button class="btn btn-gold" type="submit">Prepare email <span>↗</span></button><p class="form-status" id="formStatus" aria-live="polite">This form opens your email app; it does not store messages.</p></form></div></section>
+  </main>
+  <footer class="footer"><div class="container footer-top"><a class="brand" href="#top"><span class="brand-mark">A</span> AFRIVINO<span class="brand-dot">.</span></a><p>Pour something memorable.</p><a href="#top" class="back-top">BACK TO TOP ↑</a></div><div class="container footer-bottom"><span>© <span id="year"></span> AFRIVINO. All rights reserved.</span><span>PLEASE ENJOY RESPONSIBLY · 18+</span></div></footer>
+</body>
+</html>
